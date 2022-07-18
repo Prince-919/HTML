@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Form</title>
+</head>
+<body>
+    <h1>Registration From</h1>
+    <hr>
+    <form action="#">
+        <label for="user">Enter your name </label>
+        <input type="text" id="user" value="prince" readonly disabled size="40">
+        <br><br>
+        <label for="username">Username</label>
+        <input type="text" id="usename" placeholder="Enter your username" maxlength="100">
+        <br><br>
+
+        <label for="datemax">Enter a date before 1980-01-01</label>
+        <input 
+        type="date"
+        id="datemax"
+        name="datemax"
+        max="1979-12-31"
+        > <br><br>
+        <label for="datemin">Enter a date after 2022-0101</label>
+        <input
+         type="date"
+         id="datemin"
+         name="datemin"
+         min="2000-01-01"
+         max="2022-12-31"
+        >
+        <br><br>
+        <label for="quantity">Quantity (between 1 and 5)</label>
+        <input 
+        
+        type="number"
+        id="quantity"
+        name="quantity"
+        min="1"
+        max="5"
+        ><br><br>
+         
+        <label for="files">Select files</label>
+        <input
+        type="file"
+        name="files"
+        id="files"
+        multiple
+        ><br><br>
+
+        <label for="fname">First Name </label>
+        <input
+         type="text"
+         name="fname"
+         id="fname"
+         placeholder="Enter your name "
+         autofocus
+         autocomplete="off"
+        ><br><br>
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="internet Explorer"></option>
+            <option value="Firefox"></option>
+            <option value="Chrome"></option>
+            <option value="Opera"></option>
+            <option value="Safari"></option>
+        </datalist><br> <br>
+    </form>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>input</title>
+  </head>
+  <body>
+      <h1>Registration Form</h1>
+    <label for="username">Username</label>
+    <input
+      type="text"
+      id="username"
+      name="username"
+      placeholder="Enter your name"
+      autocomplete="off"
+    /><br /><br />
+
+    <label for="password">Password</label>
+    <input
+      type="password"
+      id="password"
+      name="password"
+      placeholder="Enter your password"
+      autocomplete="off"
+    /><br /><br />
+    <label for="emails">Email</label>
+    <input type="email" id="emails" />
+    <br /><br />
+    <input type="color" id="colors" />
+    <br />
+    <input type="range" />
+    <br />
+    <input type="radio" />
+    <br /><input type="number" /> <br /><br />
+    <input type="submit" />
+    <br /><br />
+    <hr />
+
+    <!-- **** The <select> element defibes a drop-down list -->
+
+    <label for="cars">Choose a car</label>
+    <select name="cars" id="cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
+<br><br>
+<h1>Textarea</h1>
+    <!-- Textarea -->
+    <textarea name="" 
+     id=""
+     cols="30" 
+     rows="10"
+     placeholder="Enter your bio"
+     > 
+    </textarea>
+<br><br>
+    <!-- button -->
+<h1>Button</h1>
+    <button onclick="alert('Thank you for click me 😊')">Click me</button>
+
+<br>
+<hr>
+
+    <!-- fieldset -->
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Portfolio</legend>
+            <label for="fname">First Name: </label>
+            <input 
+            type="text"
+            id="fname"
+            name="fname"
+            value="Prince"
+            ><br>
+            
+            <label for="lname"> Last Name: </label>
+            <input 
+            type="text"
+            id="lname"
+            name="lname"
+            value="Sharma"
+            ><br><br>
+
+            <button onclick="alert('Thanks for submit')">Submit</button>
+        </fieldset>
+    </form>
+
+    <footer><p>thank you :) abc14@gmail.com</p></footer>
+  </body>
+</html>
